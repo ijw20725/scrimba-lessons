@@ -27,5 +27,6 @@
 .fourth {
 	display: flex;
 	justify-content: center;
-	gap: 5px;
+	gap: 10px;
+	margin-top: 50px;
 }
