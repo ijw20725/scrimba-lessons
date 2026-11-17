@@ -1,0 +1,13 @@
+body {
+	margin: 20px;
+}
+
+img {
+	width: 150px;
+}
+
+.card {
+	border: 5px dotted purple;
+	padding: 20px;
+	display: flex;
+}
