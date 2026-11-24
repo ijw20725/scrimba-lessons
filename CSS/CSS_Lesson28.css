@@ -1,0 +1,49 @@
+body {
+	
+	margin: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;	
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px); /* Moves up 15px */
+  }
+  100% {
+    transform: translateY(0px); /* Returns to start */
+  }
+}
+
+.img-width {
+	
+	width: 150px;
+	box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+	transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+	transform: scale(1.05);
+  	animation-name: float;
+  	animation-duration: 3s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+}
+
+
+
+  /* Shorthand version of the 4 lines above: */
+  /* animation: float 3s ease-in-out infinite; */
+
+
+.card {
+	
+	width: 400px;
+	margin: 0px auto;
+	padding: 20px;
+	display: flex;
+	text-align: center;
+	background: #e0aaff;
+	color:#2b2839;
+	border-bottom:6px solid #10002b; 
+	justify-content: space-around;
+
+}
