@@ -1,0 +1,22 @@
+@font-face {
+	src: url('../Fonts/font.otf");
+	font-family: sci-fi;
+}
+
+
+body {	
+	
+	color: white;
+	background-image: url("../Images/space.jpg");		
+	background-size: cover;
+	text-align: center;
+	font-family:sci-fi;
+}
+
+.style {
+	
+	border: none;
+	background: white;
+	padding: 6px 12px;
+	font-family: inherit;
+}
