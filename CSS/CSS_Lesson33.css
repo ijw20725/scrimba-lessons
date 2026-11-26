@@ -1,0 +1,27 @@
+body {  
+
+        color: white;
+        background-image: url("../Images/space.jpg");           
+        background-size: cover;
+        text-align: center;
+        font-family:sci-fi;
+}
+
+.style {
+
+        border: none;
+        background: white;
+        padding: 6px 12px;
+        font-family: inherit;
+}
+
+@font-face {
+        src: url('../Fonts/font.otf");
+        font-family: sci-fi;
+}
+
+.cta {
+	text-decoration: underline;
+	text-underline-offset: 7px;
+	text-decoration-thickness: 5px;
+}
